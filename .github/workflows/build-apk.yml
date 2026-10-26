@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./Indian-IPTV-App-2.2.0
+        working-directory: ./indian-iptv-app-2.2.0
 
     steps:
       - name: Checkout repository
@@ -43,4 +43,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: iptv-android-tv-apk
-          path: Indian-IPTV-App-2.2.0/build/app/outputs/flutter-apk/iptv-android-tv.apk
+          path: indian-iptv-app-2.2.0/build/app/outputs/flutter-apk/iptv-android-tv.apk
